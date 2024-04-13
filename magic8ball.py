@@ -1,3 +1,7 @@
+# Magic 8-Ball
+# The Magic 8-Ball is a popular toy developed in the 1950s for fortune-telling or advice seeking.
+# 
+# Write a magic8.py Python program that can answer any “Yes” or “No” question with a different fortune each time it executes.
 import random
 
 name = "Jon Jon"
@@ -7,7 +11,7 @@ answer = ""
 random_number = random.randint(1,10)
 # print(random_number)
 
-if question != "":
+if question != "": # Make sure we have a question to answer
     # Control flow 
     if random_number == 1:
         answer = "Yes - definitely"
